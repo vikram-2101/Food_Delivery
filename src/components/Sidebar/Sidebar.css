@@ -1,0 +1,27 @@
+.sidebar {
+  width: 200px;
+  position: relative;
+  height: 100%;
+  padding: 0 10px;
+}
+.sidebar-container {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  margin-top: 30px;
+}
+.cross {
+  align-self: flex-end;
+}
+
+#navbar-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+#navbar-2 li:hover {
+  color: blueviolet;
+}
